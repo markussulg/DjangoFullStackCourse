@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <style media="screen">
+      .jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  background-color: #e9ecef;
+  border-radius: .3rem;
+}
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Welcome</a>
+        <ul class="navbar-nav">
+          <li>
+            <a class="nav-link" href="project.html">Landing Page</a>
+          </li>
+        </ul>
+    </nav>
+
+
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Log In!</h1>
+        <p>Enter your email and password!</p>
+      </div>
+
+    <form class="mb-3">
+      <label for="userem"  class="form-label">Email:</label>
+      <input type="text" class="form-control" name="userem" placeholder="email@mail.com">
+      <label for="userpass"  class="form-label">Password:</label>
+      <input type="password" class="form-control" name="userpass" placeholder="Password">
+
+      <div class="checkbox">
+        <label for="usercheck" class="form-label">
+          <input type="checkbox" name="usercheck" value="">
+          Keep me Logged In</label>
+
+      </div>
+
+      <button type="submit" class="btn btn-primary" name="button">Submit</button>
+    </form>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,32 @@
+h1 {
+  color: blue;
+}
+
+li {
+  color: rgb(40,209, 85);
+}
+
+p {
+  color: #0f0f0f
+}
+
+h4{
+  color: rgba(40, 209, 85, 0.2)
+}
+/*Part 2*/
+body{
+  background: url(https://www.travelanddestinations.com/wp-content/uploads/2019/11/Beach-Destinations-in-Asia.jpg);
+  background-repeat: repeat;
+}
+
+div{
+  background-color: blue;
+  border-color: red;
+  border-width: 10 px;
+  border-style: double;
+}
+
+span{
+  background: orange;
+  color:yellow;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Forms</title>
+  </head>
+  <body>
+    <form class="" action="https://www.google.com" method="get">
+      <h1>Log In</h1>
+      <h2>Please Input your Email and Password</h2>
+
+      <input type="email" name="useremail" value="Email Here">
+      <input type="password" name="userpassword" value="" required>
+      <input type="submit" name="loginsubmit" value="Submit">
+    </form>
+
+    <h2>Input with label</h2>
+    <form>
+      <label for="userinput">Enter Input:</label>
+      <input id= "userinput" type="text" name="" placeholder="Hello!">
+    </form>
+
+    <h2>Advanced form</h2>
+    <form method="get">
+      <h3>Are you from US?</h3>
+      <label for="inusa">Inside: </label>
+      <input id="inusa"type="radio" name="loc" value="inside">
+
+      <label for="outusa">Outside: </label>
+      <input id="outusa" type="radio" name="loc" value="outside">
+
+      <h3>How was your service?</h3>
+      <select name="stars">
+        <option value="3">Great</option>
+        <option value="2">Okay</option>
+        <option value="1">Bad</option>
+      </select>
+
+      <h2>Any other feedback?</h2>
+      <textarea name="mytext" rows="8" cols="80"></textarea>
+      
+      <input type="submit" name="" value="SUBMIT">
+    </form>
+  </body>
+</html>

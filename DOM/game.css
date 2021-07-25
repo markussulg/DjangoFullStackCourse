@@ -1,0 +1,14 @@
+.jumbotron {
+padding: 2rem 1rem;
+margin-bottom: 2rem;
+margin-top: 1rem;
+background-color: #e9ecef;
+border-radius: .3rem;
+}
+td {
+border:3px solid black;
+height: 100px;
+width: 100px;
+text-align: center;
+font-size: 60px;
+}
